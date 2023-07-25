@@ -1379,24 +1379,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2540771e65fc8cb83cd6e8a237f70c319bd5c29f78ed1084ba5d50eeac86f7f9"
 
 [[package]]
-name = "help"
-version = "0.1.0"
-dependencies = [
- "anchor-lang",
- "anchor-spl",
- "futures",
- "rust_decimal",
- "rust_decimal_macros",
- "shellexpand",
- "solana-account-decoder",
- "solana-client",
- "solana-client-helpers",
- "solana-sdk",
- "tokio",
- "whirlpool",
-]
-
-[[package]]
 name = "hermit-abi"
 version = "0.1.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2086,6 +2068,24 @@ name = "openssl-probe"
 version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ff011a302c396a5197692431fc1948019154afc178baf7d8e37367442a4601cf"
+
+[[package]]
+name = "orca_price_feed"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+ "anchor-spl",
+ "futures",
+ "rust_decimal",
+ "rust_decimal_macros",
+ "shellexpand",
+ "solana-account-decoder",
+ "solana-client",
+ "solana-client-helpers",
+ "solana-sdk",
+ "tokio",
+ "whirlpool",
+]
 
 [[package]]
 name = "ouroboros"
